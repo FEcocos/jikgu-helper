@@ -1,0 +1,112 @@
+:host {
+  all: initial;
+  display: block;
+}
+
+.card {
+  box-sizing: border-box;
+  margin: 8px 0 12px;
+  padding: 10px 12px;
+  border: 1px solid #d5d9d9;
+  border-radius: 8px;
+  background: #f7fafa;
+  color: #0f1111;
+  word-break: keep-all;
+  font: 13px/1.45 -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 8px;
+  margin-bottom: 4px;
+  font-size: 12px;
+}
+
+.amount {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 6px;
+}
+
+.krw {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.total {
+  font-size: 15px;
+  font-weight: 700;
+  color: #b12704;
+}
+
+.status {
+  margin: 4px 0 0;
+  font-weight: 600;
+}
+
+.status.ok {
+  color: #067d62;
+}
+
+.status.over {
+  color: #b12704;
+}
+
+.reason {
+  font-weight: 400;
+  color: #565959;
+}
+
+.taxes {
+  display: grid;
+  grid-template-columns: max-content max-content;
+  gap: 2px 16px;
+  margin: 6px 0 0;
+}
+
+.taxes dt,
+.taxes dd {
+  margin: 0;
+}
+
+.taxes dd {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.note {
+  margin: 6px 0 0;
+  padding: 6px 8px;
+  border-radius: 6px;
+  background: #fff8e5;
+}
+
+.category {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.category select {
+  max-width: 100%;
+  padding: 2px 4px;
+  border: 1px solid #d5d9d9;
+  border-radius: 6px;
+  background: #fff;
+  font: inherit;
+}
+
+.muted {
+  color: #565959;
+  font-size: 12px;
+}
+
+.fine {
+  margin: 6px 0 0;
+  font-size: 11px;
+}
